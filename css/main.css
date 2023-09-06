@@ -26,9 +26,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 a {
@@ -42,6 +40,34 @@ video {
   vertical-align: middle;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+.section {
+  display: flex;
+  background-color: var(--green);
+  margin: 40px;
+}
+
+.box {
+  background-color: var(--dark-blue);
+  padding: 40px;
+  margin: 20px;
+  line-height: 50px;
+  color: var(--white);
+  font-size: 42px;
+}
+
+.section-2 {
+  justify-content: flex-end;
+}
+
+.section-3 {
+  flex-direction: column-reverse;
+}
+
+.section-4 {
+  justify-content: space-between;
+}
+
+.section-5 {
+  flex-direction: column;
+  align-items: center;
+}
